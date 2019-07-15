@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soap.box.mapper.Admin_logMapper">
+  <resultMap id="BaseResultMap" type="com.soap.box.entity.Admin_log">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="admin_id" jdbcType="INTEGER" property="adminId" />
+    <result column="request_url" jdbcType="VARCHAR" property="requestUrl" />
+    <result column="request_class" jdbcType="VARCHAR" property="requestClass" />
+    <result column="request_function" jdbcType="VARCHAR" property="requestFunction" />
+    <result column="request_ip" jdbcType="VARCHAR" property="requestIp" />
+    <result column="consume_time" jdbcType="INTEGER" property="consumeTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="create_time" jdbcType="INTEGER" property="createTime" />
+    <result column="version" jdbcType="INTEGER" property="version" />
+  </resultMap>
+</mapper>
